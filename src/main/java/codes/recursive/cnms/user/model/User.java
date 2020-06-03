@@ -9,7 +9,7 @@ import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Entity
-@Table(name = "JPA_USERS")
+@Table(name = "USERS")
 public class User {
 
     @Id
@@ -33,6 +33,11 @@ public class User {
     @Size(max=50)
     private String username;
 
+    @Column(name = "password")
+    @NotNull
+    @Size(max=50)
+    private String password;
+
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX")
     @Column(name = "created_on")
     private Date createdOn = new Date();
@@ -41,18 +46,20 @@ public class User {
 
     }
 
-    public User(String id, String firstName, String lastName, String username) {
+    public User(String id, String firstName, String lastName, String username, String password) {
         this.setId(id);
         this.setFirstName(firstName);
         this.setLastName(lastName);
         this.setUsername(username);
+        this.setPassword(password);
         this.setCreatedOn(createdOn);
     }
 
-    public User(String firstName, String lastName, String username) {
+    public User(String firstName, String lastName, String username, String password) {
         this.setFirstName(firstName);
         this.setLastName(lastName);
         this.setUsername(username);
+        this.setPassword(password);
         this.setCreatedOn(createdOn);
     }
 
@@ -87,6 +94,10 @@ public class User {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    public String getPassword() { return password;}
+
+    public void setPassword(String password) { this.password = password; }
 
     public Date getCreatedOn() {
         return createdOn;
