@@ -39,6 +39,10 @@ WORKDIR /helidon
 COPY --from=build /helidon/target/user-svc.jar ./
 COPY --from=build /helidon/target/libs ./libs
 
-CMD ["java", "-jar", "user-svc.jar"]
+RUN mkdir wallet
+COPY /build-resource/wallet/* ./wallet/
 
 EXPOSE 8080
+
+CMD ["sh", "-c", "java -jar -Ddatasource.username=$DB_USER -Ddatasource.password=$DB_PASSWORD -Ddatasource.url=$DB_URL -Doracle.net.wallet_location=/helidon/wallet -Doracle.net.authentication_services=\"(TCPS)\" -Doracle.net.tns_admin=/helidon/wallet -Djavax.net.ssl.trustStore=/helidon/wallet/cwallet.sso -Djavax.net.ssl.trustStoreType=SSO -Djavax.net.ssl.keyStore=/helidon/wallet/cwallet.sso -Djavax.net.ssl.keyStoreType=SSO -Doracle.net.ssl_server_dn_match=true -Doracle.net.ssl_version=1.2 user-svc.jar"]
+
