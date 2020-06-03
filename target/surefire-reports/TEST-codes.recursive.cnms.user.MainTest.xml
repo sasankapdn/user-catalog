@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="codes.recursive.cnms.user.MainTest" time="2.031" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sasanka/dev/mono-micro/helidon/demo/user-svc"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sasanka/dev/mono-micro/helidon/demo/user-svc"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/3h/9zx_7jh11yq_4jfnyf02zyc00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/sasanka/Maven/apache-maven-3.6.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sasanka/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/sasanka/Maven/apache-maven-3.6.1/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="library.jansi.path" value="/Users/sasanka/Maven/apache-maven-3.6.1/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sasanka"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sasanka"/>
+    <property name="java.class.path" value="/Users/sasanka/Maven/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="/Users/sasanka/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/sasanka/Maven/apache-maven-3.6.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="codes.recursive.cnms.user.MainTest" classname="codes.recursive.cnms.user.MainTest" time="1.994">
+    <error message="Exception List with 3 exceptions:&#10;Exception 0 :&#10;io.helidon.config.MissingValueException: Requested value for configuration key &apos;datasource.password&apos; is not present in the configuration.&#10;	at io.helidon.config.MissingValueException.create(MissingValueException.java:44)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension$ConfigPropertyProducer.create(ConfigCdiExtension.java:517)&#10;	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)&#10;	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)&#10;	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:807)&#10;	at org.jboss.weld.util.ForwardingBeanManager.getInjectableReference(ForwardingBeanManager.java:69)&#10;	at org.jboss.weld.bean.builtin.BeanManagerProxy.getInjectableReference(BeanManagerProxy.java:93)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.lambda$validate$4(ConfigCdiExtension.java:255)&#10;	at java.lang.Iterable.forEach(Iterable.java:75)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.validate(ConfigCdiExtension.java:253)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)&#10;	at org.jboss.weld.injection.MethodInvocationStrategy$SpecialParamPlusBeanManagerStrategy.invoke(MethodInvocationStrategy.java:187)&#10;	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)&#10;	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)&#10;	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)&#10;	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)&#10;	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)&#10;	at org.jboss.weld.util.Observers.notify(Observers.java:166)&#10;	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)&#10;	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)&#10;	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)&#10;	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)&#10;	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)&#10;	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:35)&#10;	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:28)&#10;	at org.jboss.weld.bootstrap.WeldStartup.validateBeans(WeldStartup.java:505)&#10;	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:93)&#10;	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:804)&#10;	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:176)&#10;	at io.helidon.microprofile.server.Server$Builder.createContainer(Server.java:297)&#10;	at io.helidon.microprofile.server.Server$Builder.lambda$build$0(Server.java:205)&#10;	at java.util.Optional.orElseGet(Optional.java:267)&#10;	at io.helidon.microprofile.server.Server$Builder.build(Server.java:203)&#10;	at io.helidon.microprofile.server.Server.create(Server.java:91)&#10;	at codes.recursive.cnms.user.Main.startServer(Main.java:59)&#10;	at codes.recursive.cnms.user.MainTest.startTheServer(MainTest.java:39)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389)&#10;	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeBeforeAllMethods$5(ClassTestDescriptor.java:228)&#10;	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeBeforeAllMethods(ClassTestDescriptor.java:227)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:151)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:61)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:80)&#10;	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#10;	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)&#10;	at java.util.Iterator.forEachRemaining(Iterator.java:116)&#10;	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92)&#10;	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)&#10;	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132)&#10;	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;Exception 1 :&#10;io.helidon.config.MissingValueException: Requested value for configuration key &apos;datasource.url&apos; is not present in the configuration.&#10;	at io.helidon.config.MissingValueException.create(MissingValueException.java:44)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension$ConfigPropertyProducer.create(ConfigCdiExtension.java:517)&#10;	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)&#10;	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)&#10;	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:807)&#10;	at org.jboss.weld.util.ForwardingBeanManager.getInjectableReference(ForwardingBeanManager.java:69)&#10;	at org.jboss.weld.bean.builtin.BeanManagerProxy.getInjectableReference(BeanManagerProxy.java:93)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.lambda$validate$4(ConfigCdiExtension.java:255)&#10;	at java.lang.Iterable.forEach(Iterable.java:75)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.validate(ConfigCdiExtension.java:253)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)&#10;	at org.jboss.weld.injection.MethodInvocationStrategy$SpecialParamPlusBeanManagerStrategy.invoke(MethodInvocationStrategy.java:187)&#10;	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)&#10;	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)&#10;	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)&#10;	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)&#10;	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)&#10;	at org.jboss.weld.util.Observers.notify(Observers.java:166)&#10;	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)&#10;	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)&#10;	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)&#10;	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)&#10;	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)&#10;	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:35)&#10;	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:28)&#10;	at org.jboss.weld.bootstrap.WeldStartup.validateBeans(WeldStartup.java:505)&#10;	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:93)&#10;	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:804)&#10;	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:176)&#10;	at io.helidon.microprofile.server.Server$Builder.createContainer(Server.java:297)&#10;	at io.helidon.microprofile.server.Server$Builder.lambda$build$0(Server.java:205)&#10;	at java.util.Optional.orElseGet(Optional.java:267)&#10;	at io.helidon.microprofile.server.Server$Builder.build(Server.java:203)&#10;	at io.helidon.microprofile.server.Server.create(Server.java:91)&#10;	at codes.recursive.cnms.user.Main.startServer(Main.java:59)&#10;	at codes.recursive.cnms.user.MainTest.startTheServer(MainTest.java:39)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389)&#10;	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeBeforeAllMethods$5(ClassTestDescriptor.java:228)&#10;	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeBeforeAllMethods(ClassTestDescriptor.java:227)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:151)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:61)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:80)&#10;	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#10;	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)&#10;	at java.util.Iterator.forEachRemaining(Iterator.java:116)&#10;	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92)&#10;	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)&#10;	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132)&#10;	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;Exception 2 :&#10;io.helidon.config.MissingValueException: Requested value for configuration key &apos;datasource.username&apos; is not present in the configuration.&#10;	at io.helidon.config.MissingValueException.create(MissingValueException.java:44)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension$ConfigPropertyProducer.create(ConfigCdiExtension.java:517)&#10;	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)&#10;	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)&#10;	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)&#10;	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:807)&#10;	at org.jboss.weld.util.ForwardingBeanManager.getInjectableReference(ForwardingBeanManager.java:69)&#10;	at org.jboss.weld.bean.builtin.BeanManagerProxy.getInjectableReference(BeanManagerProxy.java:93)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.lambda$validate$4(ConfigCdiExtension.java:255)&#10;	at java.lang.Iterable.forEach(Iterable.java:75)&#10;	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.validate(ConfigCdiExtension.java:253)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)&#10;	at org.jboss.weld.injection.MethodInvocationStrategy$SpecialParamPlusBeanManagerStrategy.invoke(MethodInvocationStrategy.java:187)&#10;	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)&#10;	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)&#10;	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)&#10;	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)&#10;	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)&#10;	at org.jboss.weld.util.Observers.notify(Observers.java:166)&#10;	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)&#10;	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)&#10;	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)&#10;	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)&#10;	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)&#10;	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:35)&#10;	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:28)&#10;	at org.jboss.weld.bootstrap.WeldStartup.validateBeans(WeldStartup.java:505)&#10;	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:93)&#10;	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:804)&#10;	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:176)&#10;	at io.helidon.microprofile.server.Server$Builder.createContainer(Server.java:297)&#10;	at io.helidon.microprofile.server.Server$Builder.lambda$build$0(Server.java:205)&#10;	at java.util.Optional.orElseGet(Optional.java:267)&#10;	at io.helidon.microprofile.server.Server$Builder.build(Server.java:203)&#10;	at io.helidon.microprofile.server.Server.create(Server.java:91)&#10;	at codes.recursive.cnms.user.Main.startServer(Main.java:59)&#10;	at codes.recursive.cnms.user.MainTest.startTheServer(MainTest.java:39)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389)&#10;	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeBeforeAllMethods$5(ClassTestDescriptor.java:228)&#10;	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeBeforeAllMethods(ClassTestDescriptor.java:227)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:151)&#10;	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:61)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:80)&#10;	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#10;	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)&#10;	at java.util.Iterator.forEachRemaining(Iterator.java:116)&#10;	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92)&#10;	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51)&#10;	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)&#10;	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)&#10;	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132)&#10;	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="org.jboss.weld.exceptions.DeploymentException">org.jboss.weld.exceptions.DeploymentException: 
+Exception List with 3 exceptions:
+Exception 0 :
+io.helidon.config.MissingValueException: Requested value for configuration key 'datasource.password' is not present in the configuration.
+	at io.helidon.config.MissingValueException.create(MissingValueException.java:44)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension$ConfigPropertyProducer.create(ConfigCdiExtension.java:517)
+	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:807)
+	at org.jboss.weld.util.ForwardingBeanManager.getInjectableReference(ForwardingBeanManager.java:69)
+	at org.jboss.weld.bean.builtin.BeanManagerProxy.getInjectableReference(BeanManagerProxy.java:93)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.lambda$validate$4(ConfigCdiExtension.java:255)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.validate(ConfigCdiExtension.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)
+	at org.jboss.weld.injection.MethodInvocationStrategy$SpecialParamPlusBeanManagerStrategy.invoke(MethodInvocationStrategy.java:187)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)
+	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)
+	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)
+	at org.jboss.weld.util.Observers.notify(Observers.java:166)
+	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)
+	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)
+	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)
+	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:35)
+	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:28)
+	at org.jboss.weld.bootstrap.WeldStartup.validateBeans(WeldStartup.java:505)
+	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:93)
+	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:804)
+	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:176)
+	at io.helidon.microprofile.server.Server$Builder.createContainer(Server.java:297)
+	at io.helidon.microprofile.server.Server$Builder.lambda$build$0(Server.java:205)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at io.helidon.microprofile.server.Server$Builder.build(Server.java:203)
+	at io.helidon.microprofile.server.Server.create(Server.java:91)
+	at codes.recursive.cnms.user.Main.startServer(Main.java:59)
+	at codes.recursive.cnms.user.MainTest.startTheServer(MainTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeBeforeAllMethods$5(ClassTestDescriptor.java:228)
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeBeforeAllMethods(ClassTestDescriptor.java:227)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:151)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:61)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:80)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Exception 1 :
+io.helidon.config.MissingValueException: Requested value for configuration key 'datasource.url' is not present in the configuration.
+	at io.helidon.config.MissingValueException.create(MissingValueException.java:44)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension$ConfigPropertyProducer.create(ConfigCdiExtension.java:517)
+	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:807)
+	at org.jboss.weld.util.ForwardingBeanManager.getInjectableReference(ForwardingBeanManager.java:69)
+	at org.jboss.weld.bean.builtin.BeanManagerProxy.getInjectableReference(BeanManagerProxy.java:93)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.lambda$validate$4(ConfigCdiExtension.java:255)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.validate(ConfigCdiExtension.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)
+	at org.jboss.weld.injection.MethodInvocationStrategy$SpecialParamPlusBeanManagerStrategy.invoke(MethodInvocationStrategy.java:187)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)
+	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)
+	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)
+	at org.jboss.weld.util.Observers.notify(Observers.java:166)
+	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)
+	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)
+	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)
+	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:35)
+	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:28)
+	at org.jboss.weld.bootstrap.WeldStartup.validateBeans(WeldStartup.java:505)
+	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:93)
+	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:804)
+	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:176)
+	at io.helidon.microprofile.server.Server$Builder.createContainer(Server.java:297)
+	at io.helidon.microprofile.server.Server$Builder.lambda$build$0(Server.java:205)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at io.helidon.microprofile.server.Server$Builder.build(Server.java:203)
+	at io.helidon.microprofile.server.Server.create(Server.java:91)
+	at codes.recursive.cnms.user.Main.startServer(Main.java:59)
+	at codes.recursive.cnms.user.MainTest.startTheServer(MainTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeBeforeAllMethods$5(ClassTestDescriptor.java:228)
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeBeforeAllMethods(ClassTestDescriptor.java:227)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:151)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:61)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:80)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Exception 2 :
+io.helidon.config.MissingValueException: Requested value for configuration key 'datasource.username' is not present in the configuration.
+	at io.helidon.config.MissingValueException.create(MissingValueException.java:44)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension$ConfigPropertyProducer.create(ConfigCdiExtension.java:517)
+	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:807)
+	at org.jboss.weld.util.ForwardingBeanManager.getInjectableReference(ForwardingBeanManager.java:69)
+	at org.jboss.weld.bean.builtin.BeanManagerProxy.getInjectableReference(BeanManagerProxy.java:93)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.lambda$validate$4(ConfigCdiExtension.java:255)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at io.helidon.microprofile.config.cdi.ConfigCdiExtension.validate(ConfigCdiExtension.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:95)
+	at org.jboss.weld.injection.MethodInvocationStrategy$SpecialParamPlusBeanManagerStrategy.invoke(MethodInvocationStrategy.java:187)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:330)
+	at org.jboss.weld.event.ExtensionObserverMethodImpl.sendEvent(ExtensionObserverMethodImpl.java:123)
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:308)
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:286)
+	at javax.enterprise.inject.spi.ObserverMethod.notify(ObserverMethod.java:124)
+	at org.jboss.weld.util.Observers.notify(Observers.java:166)
+	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:285)
+	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:273)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:177)
+	at org.jboss.weld.event.ObserverNotifier.fireEvent(ObserverNotifier.java:171)
+	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:53)
+	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:35)
+	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:28)
+	at org.jboss.weld.bootstrap.WeldStartup.validateBeans(WeldStartup.java:505)
+	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:93)
+	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:804)
+	at org.jboss.weld.environment.se.Weld.initialize(Weld.java:176)
+	at io.helidon.microprofile.server.Server$Builder.createContainer(Server.java:297)
+	at io.helidon.microprofile.server.Server$Builder.lambda$build$0(Server.java:205)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at io.helidon.microprofile.server.Server$Builder.build(Server.java:203)
+	at io.helidon.microprofile.server.Server.create(Server.java:91)
+	at codes.recursive.cnms.user.Main.startServer(Main.java:59)
+	at codes.recursive.cnms.user.MainTest.startTheServer(MainTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeBeforeAllMethods$5(ClassTestDescriptor.java:228)
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeBeforeAllMethods(ClassTestDescriptor.java:227)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:151)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:61)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:80)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+	at codes.recursive.cnms.user.MainTest.startTheServer(MainTest.java:39)
+</error>
+    <system-err><![CDATA[May 28, 2020 4:05:52 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.1 (Final)
+May 28, 2020 4:05:52 PM org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory create
+INFO: WELD-ENV-000020: Using jandex for bean discovery
+May 28, 2020 4:05:52 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+May 28, 2020 4:05:52 PM org.jboss.weld.event.ExtensionObserverMethodImpl checkRequiredTypeAnnotations
+INFO: WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+May 28, 2020 4:05:52 PM org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl addAnnotatedType
+WARN: WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!
+]]></system-err>
+  </testcase>
+</testsuite>

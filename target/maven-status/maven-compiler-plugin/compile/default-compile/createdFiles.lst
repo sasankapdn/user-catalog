@@ -1,0 +1,6 @@
+codes/recursive/cnms/user/UserApplication.class
+codes/recursive/cnms/user/UserResource.class
+codes/recursive/cnms/user/UserProvider.class
+codes/recursive/cnms/user/model/User.class
+codes/recursive/cnms/user/UserRepository.class
+codes/recursive/cnms/user/Main.class
