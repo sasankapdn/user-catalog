@@ -92,16 +92,17 @@ connection: keep-alive
 ```
 
 Save a new user (ID is returned in `Location` header):
+```
 curl -iX POST -H "Content-Type: application/json" -d '{"firstName": "ABC", "lastName": "XYZ", "username": "alpha", , "password": "abc123" }' http://localhost:8080/user/save                            
 HTTP/1.1 201 Created
 Date: Thu, 20 Jun 2019 10:45:38 -0400
 Location: http://[0:0:0:0:0:0:0:1]:8080/user/8BC3669097C9EC53E0532110000A6E22
 transfer-encoding: chunked
 connection: keep-alive
-
+```
 
 Save a new user with invalid data (will return 422 and validation errors):
-
+```
 curl -iX POST -H "Content-Type: application/json" -d '{"firstName": "A Really Long First Name That Will Be Longer Than 50 Chars", "lastName": null, "username": null, "password": null}' http://localhost:8080/user/save                            
 HTTP/1.1 422 Unprocessable Entity
 Content-Type: application/json
@@ -110,10 +111,10 @@ transfer-encoding: chunked
 connection: keep-alive
 
 {"validationErrors":[{"field":"username","message":"may not be null","currentValue":null},{"field":"lastName","message":"may not be null","currentValue":null},{"field":"firstName","message":"size must be between 0 and 50","currentValue":"A Really Long First Name That Will Be Longer Than 50 Chars"}]}%               
-
+```
 
 Get the new user
-
+```
 curl -iX GET http://localhost:8080/user/8BC3669097C9EC53E0532110000A6E22                                                                                                                   
 HTTP/1.1 200 OK
 Content-Type: application/json
@@ -122,7 +123,7 @@ transfer-encoding: chunked
 connection: keep-alive
 
 {"id":"8BC3669097C9EC53E0532110000A6E11","firstName":"ABC","lastName":"XYZ","username":"alpha","password":"abc123","createdOn":"2019-06-20T14:45:38.509Z"}
-
+```
 ## View Health and Metrics
 
 ```bash
