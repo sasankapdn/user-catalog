@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67239940-4f74-4537-94af-99b8bcd66477" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/UserResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/user-svc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/user-svc.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +55,7 @@
   <component name="RunManager" selected="JAR Application.Unnamed">
     <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/user-svc.jar" />
-      <option name="VM_PARAMETERS" value="-Ddatasource.username=admin -Ddatasource.password=a1phaOffice1_ -Ddatasource.url=jdbc:oracle:thin:@product_low?TNS_ADMIN=$PROJECT_DIR$/build-resource/wallet" />
+      <option name="VM_PARAMETERS" value="-Ddatasource.username=admin -Ddatasource.password=AppD3v0ps01_ -Ddatasource.url=jdbc:oracle:thin:@user_low?TNS_ADMIN=$PROJECT_DIR$/build-resource/wallet" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
@@ -92,10 +106,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/UserResource.java</url>
+          <line>126</line>
+          <properties class="codes.recursive.cnms.user.UserResource" method="saveRequest" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

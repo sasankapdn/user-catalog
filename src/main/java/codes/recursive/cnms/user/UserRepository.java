@@ -1,5 +1,6 @@
 package codes.recursive.cnms.user;
 
+import codes.recursive.cnms.user.model.Request;
 import codes.recursive.cnms.user.model.User;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -34,6 +35,11 @@ public class UserRepository {
     public Set<ConstraintViolation<User>> validate(User user) {
         Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
         Set<ConstraintViolation<User>> constraintViolations = validator.validate(user);
+        return constraintViolations;
+    }
+    public Set<ConstraintViolation<Request>> validate(Request rq) {
+        Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
+        Set<ConstraintViolation<Request>> constraintViolations = validator.validate(rq);
         return constraintViolations;
     }
 
@@ -78,6 +84,12 @@ public class UserRepository {
                 e.printStackTrace();
             }
         }
+    }
+    public Request saveRequest(Request request) {
+        entityManager.getTransaction().begin();
+        entityManager.persist(request);
+        entityManager.getTransaction().commit();
+        return request;
     }
 
 }

@@ -16,6 +16,7 @@
 
 package codes.recursive.cnms.user;
 
+import codes.recursive.cnms.user.model.Request;
 import codes.recursive.cnms.user.model.User;
 
 import javax.enterprise.context.RequestScoped;
@@ -118,6 +119,40 @@ public class UserResource {
     public Response deleteUser(@PathParam("id") String id) {
         userRepository.deleteById(id);
         return Response.noContent().build();
+    }
+
+    @Path("/request")
+    @POST
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response saveRequest(Request request) {
+        Set<ConstraintViolation<Request>> violations = userRepository.validate(request);
+
+        if( violations.size() == 0 ) {
+            userRepository.saveRequest(request);
+            return Response.created(
+                    uriInfo.getBaseUriBuilder()
+                            .path("/user/{id}")
+                            .build(request.getId())
+            ).build();
+        }
+        else {
+            List<HashMap<String, String>> errors = new ArrayList<>();
+
+            violations.stream()
+                    .forEach( (violation) -> {
+                                Object invalidValue = violation.getInvalidValue();
+                                HashMap<String, String> errorMap = new HashMap<>();
+                                errorMap.put("field", violation.getPropertyPath().toString());
+                                errorMap.put("message", violation.getMessage());
+                                errorMap.put("currentValue", invalidValue == null ? null : invalidValue.toString());
+                                errors.add(errorMap);
+                            }
+                    );
+
+            return Response.status(422)
+                    .entity("validationErrors")
+                    .build();
+        }
     }
 
 
