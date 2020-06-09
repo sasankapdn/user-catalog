@@ -129,11 +129,13 @@ public class UserResource {
 
         if( violations.size() == 0 ) {
             userRepository.saveRequest(request);
-            return Response.created(
-                    uriInfo.getBaseUriBuilder()
-                            .path("/user/{id}")
-                            .build(request.getId())
-            ).build();
+            //return Response.created(
+            //        uriInfo.getBaseUriBuilder()
+            //                .path("/user/{id}")
+            //                .build(request.getId())
+            //).build();
+            return Response.ok("{ status: Request Sent }", MediaType.APPLICATION_JSON).build();
+
         }
         else {
             List<HashMap<String, String>> errors = new ArrayList<>();
