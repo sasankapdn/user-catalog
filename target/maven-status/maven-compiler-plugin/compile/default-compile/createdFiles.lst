@@ -1,7 +1,9 @@
-codes/recursive/cnms/user/model/Request.class
 codes/recursive/cnms/user/UserApplication.class
+codes/recursive/cnms/user/model/Contact.class
+codes/recursive/cnms/user/RequestBody.class
 codes/recursive/cnms/user/UserResource.class
-codes/recursive/cnms/user/UserProvider.class
-codes/recursive/cnms/user/model/User.class
 codes/recursive/cnms/user/UserRepository.class
 codes/recursive/cnms/user/Main.class
+codes/recursive/cnms/user/model/Request.class
+codes/recursive/cnms/user/UserProvider.class
+codes/recursive/cnms/user/model/User.class

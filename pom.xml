@@ -253,5 +253,10 @@
             <artifactId>jersey-media-json-jackson</artifactId>
             <version>2.28</version>
         </dependency>
+        <dependency>
+            <groupId>com.vladmihalcea</groupId>
+            <artifactId>hibernate-types-52</artifactId>
+            <version>2.9.11</version>
+        </dependency>
     </dependencies>
 </project>

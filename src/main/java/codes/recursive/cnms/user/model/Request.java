@@ -1,14 +1,24 @@
 package codes.recursive.cnms.user.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.vladmihalcea.hibernate.type.json.JsonBlobType;
+import com.vladmihalcea.hibernate.type.json.JsonStringType;
+import com.vladmihalcea.hibernate.type.json.internal.JacksonUtil;
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import javax.xml.bind.annotation.XmlElement;
 import java.util.Date;
 @Entity
 @Table(name = "REQUESTS")
+@TypeDef(
+        name = "jsonb",
+        typeClass = JsonBlobType.class)
 public class Request {
 
     @Id
@@ -21,22 +31,22 @@ public class Request {
     @Column(name = "created_on")
     private Date createdOn = new Date();
 
-    @JsonProperty("request")
-    @Column(name = "request")
-    @NotNull
-    @Size(max=10000)
-    private String request;
+   //@JsonProperty("Contact")
+
+    @Type(type = "jsonb")
+    private Contact request;
+
 
     public Request() {
 
     }
 
-    public Request(String id, String request) {
+    public Request(String id, Contact request) {
         this.setId(id);
         this.setRequest(request);
         this.setCreatedOn(createdOn);
     }
-    public Request(String request) {
+    public Request(Contact request) {
         this.setRequest(request);
         this.setCreatedOn(createdOn);
     }
@@ -48,10 +58,16 @@ public class Request {
     public void setId(String id) {
         this.id = id;
     }
-    @JsonProperty("request")
-    public String getRequest() { return request;}
-    @JsonProperty("request")
-    public void setRequest(String request) { this.request = request; }
+
+
+    public Contact getRequest() {
+        return request;
+    }
+
+    public Request setRequest(Contact request) {
+        this.request = request;
+        return this;
+    }
 
     public Date getCreatedOn() {
         return createdOn;
