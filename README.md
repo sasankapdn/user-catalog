@@ -1,7 +1,7 @@
 
 # Helidon Quickstart MP Example - user Catalog
 
-This example implements a simple Hello World REST service using MicroProfile
+This example implements user catalog  REST service using Helido MicroProfile
 
 ## Prerequisites
 
